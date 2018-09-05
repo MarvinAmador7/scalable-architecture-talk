@@ -1,0 +1,18 @@
+{
+  "name": "scalable-architecture-talk",
+  "version": "1.0.0",
+  "main": "deck.mdx",
+  "repository": "https://github.com/MarvinAmador7/scalable-architecture-talk",
+  "author": "MarvinAmador7 <marvin.ac.cr@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "mdx-deck -p 8081 deck.mdx",
+    "build": "mdx-deck build deck.mdx"
+  },
+  "dependencies": {
+    "mdx-deck": "^1.7.1"
+  },
+  "devDependencies": {
+    "file-loader": "^2.0.0"
+  }
+}

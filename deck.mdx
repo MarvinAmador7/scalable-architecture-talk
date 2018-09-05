@@ -1,0 +1,105 @@
+import { Appear } from 'mdx-deck'
+
+export { default as theme } from './theme'
+
+## Development of reusable, predictable and scalable Front-end architectures in 2018
+
+Marvin Amador C.
+
+<a href="https://github.com/MarvinAmador7">GITHUB</a>
+
+<a href="https://twitter.com/marv_ac">TWITTER</a>
+
+---
+
+# Reusability
+ ### Why?
+
+<Appear>
+  <li>Adaptable </li>
+  <li>Small Size</li>
+  <li>Consistency</li>
+  <li>Extensibility</li>
+  <li>Fast</li>
+  <li>Flexible</li>
+  <li>Generic</li>
+  <li>Modularity</li>
+  <li>Low complexity</li>
+</Appear>
+
+```notes
+
+```
+
+---
+
+# Predictability
+<Appear>
+  <li>Functional Programing </li>
+  <li>Immutable </li>
+  <li>Naming conventions</li>
+</Appear>
+
+```notes
+  Functional:
+  that treats computation as the evaluation of mathematical functions and avoids changing-state and mutable data.
+  It is a declarative programming paradigm, which means programming is done with expressions or declarations[1] instead of statements.
+  First-class and higher-order functions
+  Pure functions
+  Recursion
+  Strict versus non-strict evaluation
+  Type systems
+  Referential transparency
+
+  Immutable:
+  Immutable objects are simpler to construct, test, and use
+  Truly immutable objects are always thread-safe
+  They help to avoid temporal coupling (Básicamente consiste en tener un método que requiere de la ejecución de un segundo método antes de poder ser ejecutado.)
+  Their usage is side-effect free
+  immutable objects are thread-safe. This means that multiple threads can access the same object at the same time, without clashing with another thread.
+
+  Naming conventions:
+  To reduce the effort needed to read and understand source code;[1]
+  To enable code reviews to focus on more important issues than arguing over syntax and naming standards.
+  To enable code quality review tools to focus their reporting mainly on significant issues other than syntax and style preferences.
+
+```
+---
+# Immutable data structures
+- Persistent data structures
+    - Structural sharing
+
+```notes
+In computing, a persistent data structure is a data structure that always preserves the previous version of itself when it is modified. Such data structures are effectively immutable, as their operations do not (visibly) update the structure in-place, but instead always yield a new updated structure.
+```
+---
+# Immutable data structures
+### Tries
+<a href="https://en.wikipedia.org/wiki/Trie">
+<img width="500px" src="https://cdn-images-1.medium.com/max/2000/1*0oaidXCwPponpPudyGbvkA.png" />
+</a>
+
+```notes
+  Trie is a special kind of a tree data structure.
+  This is different from a binary tree since no nodes specifically stores the key associated with that node. The node’s position in the tree defines the key it’s associated with
+  Tries are commonly used to store dictionaries
+```
+---
+
+# Scalability
+---
+
+# Reusablility
+<Appear>
+<li>Opportunistic</li>
+<li>Planned</li>
+</Appear>
+
+```notes
+  Opportunistic - While getting ready to begin a project, the team realizes that there are existing components that they can reuse.
+
+  Planned – A team strategically designs components so that they'll be reusable in future projects.
+ ```
+---
+ # Showtime
+
